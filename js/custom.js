@@ -21,7 +21,7 @@ var saturday = [];
 var sunday = [];
 
 // track = {main, ws} where ws is workshop
-saturday.push(new scheduleEvent("Check-In Opens", "10:00", "main"));
+saturday.push(new scheduleEvent("Check-In Opens", "9:00 AM - 10:30 AM", "main"));
 saturday.push(new scheduleEvent("Hacking Begins", "12:00", "main"));
 saturday.push(new scheduleEvent("Opening Ceremony", "11:00", "main"));
 saturday.push(new scheduleEvent("Introduction to Electronics", "12:15", "13:15", "ws"));
