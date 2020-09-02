@@ -393,10 +393,11 @@ header, section {
 }
 
 .title-icon {
-  width: 64px;
-  height: 64px;
-  background: url("../img/icon.png");
-  background-size: 64px 64px;
+    margin-top: 10px;
+    width: 74px;
+    height: 84px;
+    background: url("../img/hackdown-logo-white-23.png");
+    background-size: 74px 84px;
 }
 
 .hidden-anchor {
@@ -487,7 +488,10 @@ p {
   font-family: "Title";
   text-align: center;
   opacity: 1;
-  background: url("../img/title-scrolling.png");
+/* binary# background
+  background: url("../img/binary-numbers-bg-edit-01.png");
+*/
+background: url("../img/title-scrolling.png");
   background-repeat: repeat-x;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -502,7 +506,6 @@ p {
     background-position: -10000px 0;
   }
 }
-
 .mb-5,
 .my-5 {
   margin-bottom: 2rem !important;
@@ -530,8 +533,10 @@ p {
 }
 
 .btn-primary:hover {
-  background-color: rgba(240, 176, 54, 0.5);
-  color: black;
+    background-color: white;
+    border-style: solid;
+    border-color: rgba(240, 176, 54);
+    color: rgba(240, 176, 54);
 }
 
 .btn-primary:focus {
