@@ -488,34 +488,34 @@ p {
   font-family: "Title";
   text-align: center;
   opacity: 1;
-	
+/*	
 binary# background
   background: url("../img/binary-numbers-bg-edit-01.png");
-/*
+	*/
 background: url("../img/title-scrolling.png");
   background-repeat: repeat-x;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   animation: animate 150s linear infinite;
 }
-	*/
+/*
 @keyframes nudge {
   100% {
     transform: translateY(-100%);
     top: 100%;
   }
-/*
+*/ 
 @keyframes animate {
   from {
     background-position: 0 0;
   }
   /*use negative width if you want it to flow right to left else and positive for left to right*/
-/*
+
   to {
     background-position: -10000px 0;
   }
 }
-*/ 
+
 .mb-5,
 .my-5 {
   margin-bottom: 2rem !important;
