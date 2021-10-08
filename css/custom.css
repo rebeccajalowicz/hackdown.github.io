@@ -394,8 +394,8 @@ header, section {
 
 .title-icon {
     margin-top: 10px;
-    width: 31.5px;
-    height: 63.5px;
+    width: 16px;
+    height: 32px;
     background: url("../img/white-logo.png");
     background-size: 31.5px 63.5px;
 }
