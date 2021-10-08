@@ -397,7 +397,7 @@ header, section {
     width: 16px;
     height: 32px;
     background: url("../img/white-logo.png");
-    background-size: 16px 32px;
+    background-size: 64px 128px;
 }
 
 .hidden-anchor {
