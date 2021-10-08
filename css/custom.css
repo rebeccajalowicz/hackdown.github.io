@@ -394,10 +394,10 @@ header, section {
 
 .title-icon {
     margin-top: 10px;
-    width: 16px;
-    height: 32px;
+    width: 63px;
+    height: 127px;
     background: url("../img/white-logo.png");
-    background-size: 64px 128px;
+    background-size: 63px 127px;
 }
 
 .hidden-anchor {
