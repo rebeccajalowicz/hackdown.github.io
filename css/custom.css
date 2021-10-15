@@ -406,8 +406,8 @@ header, section {
 @media screen and (max-width: 800px) {
   .title-icon {
     width: 38px; 
-    height: auto;
-    
+    height: 76px;
+    background-size: 38px 76px;
    }
 }
 
