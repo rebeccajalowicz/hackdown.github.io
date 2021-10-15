@@ -700,7 +700,8 @@ background: url("../img/title-scrolling.png");
   }
 	
   .title-icon {
-    height: 60%
+    height: 80%;
+    width: 80%;
    }
 }
 
@@ -711,9 +712,9 @@ background: url("../img/title-scrolling.png");
   .sponsors-img {
     width: 30%;
   }
-  
   .title-icon {
-    height: 60%
+    height: 80%;
+    width: 80%; 
    }
 }
 
