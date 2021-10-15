@@ -403,6 +403,13 @@ header, section {
     background-size: 63px 127px;
 }
 
+@media screen and (max-width: 800px) {
+  .title-icon {
+    height: 101px;
+    width: 50px; 
+   }
+}
+
 .hidden-anchor {
   position: relative;
   top: -15px;
@@ -710,12 +717,7 @@ background: url("../img/title-scrolling.png");
   }
 }
 
-@media screen and (max-width: 800px) {
-  .title-icon {
-    height: 80%;
-    width: 80%; 
-   }
-}
+
 
 
 .mb-5,
