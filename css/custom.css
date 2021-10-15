@@ -282,6 +282,14 @@ header, section {
     font-size: 3.5vw !important;
   }
 
+  .title-icon {
+    margin-top: -35px;
+    height: 150%;
+    background: url("../img/white-logo.png");
+    background-size: 63px 127px;
+   }
+	
+	
   .container {
     width: 100%;
   }
