@@ -282,13 +282,7 @@ header, section {
     font-size: 3.5vw !important;
   }
 
-  .title-icon {
-    margin-top: 10px;
-    height: auto;
-    width: auto;
-    background: url("../img/white-logo.png");
-    background-size: 63px 127px;
-   }
+ 
 	
 	
   .container {
@@ -403,10 +397,10 @@ header, section {
 
 .title-icon {
     margin-top: 10px;
-    width: 74px;
-    height: 84px;
+    width: 63px;
+    height: 127px;
     background: url("../img/white-logo.png");
-    background-size: 74px 84px;
+    background-size: 63px 127px;
 }
 
 .hidden-anchor {
@@ -693,6 +687,10 @@ background: url("../img/title-scrolling.png");
   vertical-align: middle;
 }
 
+ 
+
+
+
 @media screen and (max-width: 480px) {
   .sponsors-img-container {
     width: 100%;
@@ -700,6 +698,10 @@ background: url("../img/title-scrolling.png");
   .sponsors-img {
     width: 60%;
   }
+	
+  .title-icon {
+    height: 60%
+   }
 }
 
 @media screen and (max-width: 800px) and (min-width: 600px) {
@@ -709,6 +711,10 @@ background: url("../img/title-scrolling.png");
   .sponsors-img {
     width: 30%;
   }
+  
+  .title-icon {
+    height: 30%
+   }
 }
 
 .mb-5,
