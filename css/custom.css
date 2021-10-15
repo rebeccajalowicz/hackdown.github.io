@@ -283,8 +283,9 @@ header, section {
   }
 
   .title-icon {
-    margin-top: -35px;
-    height: 150%;
+    margin-top: 10px;
+    height: auto;
+    width: auto;
     background: url("../img/white-logo.png");
     background-size: 63px 127px;
    }
