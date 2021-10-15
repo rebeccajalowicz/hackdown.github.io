@@ -698,11 +698,7 @@ background: url("../img/title-scrolling.png");
   .sponsors-img {
     width: 60%;
   }
-	
-  .title-icon {
-    height: 80%;
-    width: 80%;
-   }
+
 }
 
 @media screen and (max-width: 800px) and (min-width: 600px) {
@@ -712,11 +708,15 @@ background: url("../img/title-scrolling.png");
   .sponsors-img {
     width: 30%;
   }
+}
+
+@media screen and (max-width: 800px) {
   .title-icon {
     height: 80%;
     width: 80%; 
    }
 }
+
 
 .mb-5,
 .my-5 {
