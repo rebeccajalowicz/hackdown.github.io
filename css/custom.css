@@ -318,19 +318,19 @@ header, section {
   }
 
   #mainNav .navbar-toggler {
-    color: #F0B036;
+    color: #FAAB99;
     border: 2px solid #ccc;
     border-radius: 30px;
   }
   
   #mainNav .navbar-toggler:hover, #mainNav .navbar-toggler:focus {
-    color: #F0B036;
-    border-color: #F0B036;
+    color: #FAAB99;
+    border-color: #FAAB99;
   }
 
   #mainNav .navbar-toggler:active {
-    color: #A07524;
-    border-color: #A07524;
+    color: #FF866B;
+    border-color: #FF866B;
   }
 
   #mainNav.navbar-shrink .nav-link {
@@ -399,7 +399,7 @@ header, section {
     margin-top: 10px;
     width: 68px;
     height: 110px;
-    background: url("../img/Hackdown_2022_Logo_White.png");
+    background: url("../img/Hackdown_2022_Light_Blue.png");
     background-size: 68px 110px;
 }
 
@@ -451,7 +451,7 @@ header, section {
 }
 
 .projects-section .project-text hr {
-  border-color: #32adff;
+  border-color: #CFE5FF;
 }
 
 .projects-section .project-text {
@@ -488,7 +488,7 @@ p {
 }
 
 .blue {
-	color: #64a19d !important;
+	color: #CFE5FF !important;
 }
 
 .white {
