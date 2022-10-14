@@ -397,10 +397,10 @@ header, section {
 
 .title-icon {
     margin-top: 10px;
-    width: 68px;
-    height: 110px;
+    width: 96px;
+    height: 174px;
     background: url("../img/Hackdown_2022_Light_Blue.png");
-    background-size: 68px 110px;
+    background-size: 96px 174px;
 }
 
 @media screen and (max-width: 800px) {
