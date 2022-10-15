@@ -400,7 +400,7 @@ header, section {
     width: 70px;
     height: 127px;
     background: url("../img/Hackdown_2022_Light_Blue.png");
-    background-size: 96px 174px;
+    background-size: 70px 127px;
 }
 
 @media screen and (max-width: 800px) {
