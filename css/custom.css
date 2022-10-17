@@ -487,6 +487,42 @@ p {
 	color: #A07524 !important;
 }
 
+.dark_blue, .dark_blue-hover {
+	color: #17153A !important;
+}
+
+.dark_blue-hover:focus, .dark_blue-hover:hover {
+    text-decoration: none;
+	color: #3F3AA1 !important;
+}
+
+.light_blue, .light_blue-hover {
+	color: #CFE5FF !important;
+}
+
+.light_blue-hover:focus, .light_blue-hover:hover {
+    text-decoration: none;
+	color: #2D8BFC !important;
+}
+
+.maroon, .maroon-hover {
+	color: #540620 !important;
+}
+
+.maroon-hover:focus, .maroon-hover:hover {
+    text-decoration: none;
+	color: #A10B3D !important;
+}
+
+.peach, .peach-hover {
+	color: #FAAB99 !important;
+}
+
+.peach-hover:focus, .peach-hover:hover {
+    text-decoration: none;
+	color: #F25C3A !important;
+}
+
 .blue {
 	color: #CFE5FF !important;
 }
