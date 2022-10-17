@@ -1,7 +1,7 @@
 body {
   margin: 0;
   padding: 0;
-  background: #17153a;
+  background: #17153A;
 }
 
 #particles-js { 
@@ -11,7 +11,7 @@ body {
     z-index: -10;
     top: 0;
     left: 0;
-	background-color: #17153a; 
+	background-color: #17153A; 
 	background-image: url(""); 
 	background-repeat: no-repeat; 
 	background-size: cover; 
@@ -50,6 +50,18 @@ body {
 
 .white-bg {
 	background: white; 
+}
+
+.light_blue-bg {
+	background: #CFE5FF; 
+}
+
+.maroon-bg {
+	background: #540620; 
+}
+
+.peach-bg {
+	background: #FAAB99; 
 }
 
 .transparent-bg {
@@ -319,7 +331,7 @@ header, section {
 
   #mainNav .navbar-toggler {
     color: #FAAB99;
-    border: 2px solid #ccc;
+    border: 2px solid #CFE5FF;
     border-radius: 30px;
   }
   
@@ -338,8 +350,8 @@ header, section {
   }
 
   #navbar-buttons li {
-    border-top: 1px solid white;
-    border-bottom: 1px solid white;
+    border-top: 1px solid light_blue;
+    border-bottom: 1px solid light_blue;
   }
 
   .btn-primary {
@@ -360,17 +372,17 @@ header, section {
 }
 
 #mainNav .nav-link {
-  -webkit-text-fill-color: white;
+  -webkit-text-fill-color: light_blue;
   padding: 1.5rem 1.5rem 1.25rem;
   border: 0;
 }
 
 #mainNav .nav-link:hover {
-  -webkit-text-fill-color: white;
+  -webkit-text-fill-color: light_blue;
 }
 
 #mainNav .navbar-brand {
-  -webkit-text-fill-color: white;
+  -webkit-text-fill-color: light_blue;
 }
 
 #mainNav {
@@ -380,7 +392,7 @@ header, section {
 
 #mainNav.navbar-shrink {
   background-color: rgba(0, 0, 0, 0.8);
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid light_blue;
   transition: 0.5s ease-in-out;
 }
 
@@ -391,7 +403,7 @@ header, section {
 }
 
 #mainNav.navbar-shrink .nav-link.active {
-  -webkit-text-fill-color: rgba(255, 255, 255, 1);
+  -webkit-text-fill-color: light_blue;
   border: 0;
 }
 
@@ -399,7 +411,7 @@ header, section {
     margin-top: 10px;
     width: 70px;
     height: 127px;
-    background: url("../img/Hackdown_2022_Light_Blue.png");
+    background: url("../img/Hackdown_2022_Light_Blue_Small.png");
     background-size: 70px 127px;
 }
 
@@ -462,7 +474,7 @@ header, section {
 .sub-heading {
   text-align: center;
   font-family: "Title";
-  color: white;
+  color: #CFE5FF;
   font-size: 2rem;
 }
 p {
@@ -578,7 +590,7 @@ background: url("../img/title-scrolling.png");
 
 /* ---- Button css ---- */
 .btn-primary {
-  background-color: rgba(240, 176, 54);
+  background-color: peach;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
   border-radius: 30px;
@@ -591,19 +603,19 @@ background: url("../img/title-scrolling.png");
 }
 
 .btn-primary:hover {
-    background-color: white;
+    background-color: light_blue;
     border-style: solid;
-    border-color: rgba(240, 176, 54);
-    color: rgba(240, 176, 54);
+    border-color: peach;
+    color: peach;
 }
 
 .btn-primary:focus {
-  background-color: rgba(240, 176, 54, 0.3) !important;
+  background-color: rgba(250, 171, 153, 0.3) !important;
   color: #888;
 }
 
 .btn-primary:active {
-  background-color: rgba(240, 176, 54, 0.5) !important;
+  background-color: rgba(250, 171, 153, 0.5) !important;
   color: #888 !important;
 }
 
@@ -713,7 +725,7 @@ background: url("../img/title-scrolling.png");
 
 .sponsors-container {
   padding: 1rem 30px 1.5rem;
-  background: white;
+  background: light_blue;
 }
 
 .sponsor-tier {
@@ -764,13 +776,13 @@ background: url("../img/title-scrolling.png");
 }
 
 #mainNav .nav-link:hover {
-    -webkit-text-fill-color: rgba(240, 176, 54) !important;
+    -webkit-text-fill-color: peach !important;
 }
 
 #mainNav .navbar-nav .nav-item:hover {
-    color: rgba(240, 176, 54) !important;
+    color: peach !important;
 }
 
 #mainNav.navbar-shrink .nav-link:hover {
-    color: rgba(240, 176, 54) !important;
+    color: peach !important;
 }
