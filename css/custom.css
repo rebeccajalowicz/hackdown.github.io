@@ -775,11 +775,11 @@ background: url("../img/title-scrolling.png");
   margin-bottom: 0 !important;
 }
 
-#mainNav .nav-link:hover {
+#mainNav.nav-link:hover {
     -webkit-text-fill-color: peach !important;
 }
 
-#mainNav .navbar-nav .nav-item:hover {
+#mainNav.navbar-nav .nav-item:hover {
     color: peach !important;
 }
 
